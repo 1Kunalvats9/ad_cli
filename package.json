@@ -1,0 +1,20 @@
+{
+  "name": "webclone",
+  "version": "2.0.0",
+  "description": "Clone any web page into a local HTML / CSS / JavaScript code base, using a real browser so the styling comes out right.",
+  "type": "module",
+  "bin": {
+    "webclone": "bin/webclone.js"
+  },
+  "scripts": {
+    "start": "node bin/webclone.js"
+  },
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "puppeteer": "^24.43.1"
+  },
+  "license": "MIT"
+}
